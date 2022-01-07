@@ -3,7 +3,7 @@
 
 <div align='center'>
     <img src='./public/assets/MemoryGame.gif' alt='Memory-Gif'>
-    <hr>
+    <br>
     <img src='./public/assets/Memory-Game.PNG' alt='Memory-Image'>
 </div>
 
