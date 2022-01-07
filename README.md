@@ -6,6 +6,9 @@
     <img src='./public/assets/Memory-Game.PNG' alt='Memory-Image'>
 </div>
 
+<br>
+<hr>
+
 ### 🚀 Tecnologias
 
 - React 
