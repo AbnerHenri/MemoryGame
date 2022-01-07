@@ -1,0 +1,90 @@
+*{
+  font-family: 'Pushster', cursive;
+  margin:0;
+  padding:0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(50, 42, 165, 0.897) 95%);
+}
+
+/* ---------------Card--------------- */
+
+#GameBoard{
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 900px;
+}
+
+.card{
+  position:relative;
+  width:150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transition: transform .6s;
+}
+
+.card_back, .card_front{
+  position:absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width:100%;
+  height:100%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+  backface-visibility: hidden;
+}
+
+.card_front{
+  background-color: #101c2c;
+  transform: rotateY(180deg);
+}
+
+.card_back{
+  background-color: #05c3ff;
+}
+
+.icon{
+  width:100px;
+}
+
+/* ---------------Anime--------------- */
+
+.flip{
+  transform: rotateY(180deg);
+}
+
+/* ---------------GameOver--------------- */
+
+#GameOver{
+  position:absolute;
+  top:0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  width:100vw;
+  height:100vh;
+  color:yellow;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#restart{
+  width: 200px;
+  margin:15px;
+  padding:10px;
+  border:none;
+  border-radius: 15px;
+  background-color: yellow;
+  font-size: 25px;
+  cursor: pointer;
+}
