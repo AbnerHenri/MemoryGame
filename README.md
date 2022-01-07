@@ -5,6 +5,8 @@
     <img src='./public/assets/MemoryGame.gif' alt='Memory-Gif'>
 </div>
 
+<br>
+
 <div align='center'>
     <img src='./public/assets/Memory-Game.PNG' alt='Memory-Image'>
 </div>
