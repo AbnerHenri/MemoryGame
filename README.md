@@ -3,7 +3,7 @@
 
 <div align='center'>
     <img src='./public/assets/MemoryGame.gif' alt='Memory-Gif'>
-    <img src='./public/assets/Memory-Game.png' alt='Memory-Image'>
+    <img src='./public/assets/Memory-Game.PNG' alt='Memory-Image'>
 </div>
 
 ### 🚀 Tecnologias
